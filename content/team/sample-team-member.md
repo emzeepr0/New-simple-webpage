@@ -1,7 +1,7 @@
 ---
-name: "Martin Erone"
-role: "Chair of the Board of Directors"
+name: "Dr Howard Ayo"
+role: "Executive Director"
 bio: |
-  Martin Erone is a highly accomplished lawyer with extensive expertise in law. With legal qualifications from Uganda and the United Kingdom and over 25 years of experience, Martin is a Partner at Kampala Associated Advocates (KAA), leading the Energy and Infrastructure desk. He is deeply dedicated to community service and has actively participated in various philanthropic endeavours. He is Chairman of the Board for Justice Livelihood and Health (JLH). He has provided his valuable expertise to organisations such as Watoto Child Care Ministry and the Uganda Christian Lawyers Fraternity Board. His unwavering commitment to these causes serves as a trustworthy source of inspiration. Martin is deeply committed to addressing social and economic justice issues and actively advocates for the underprivileged and marginalised through various charitable initiatives.
-image: "/assets/images/board_chair.jpg"
+  Howard Ayo is a senior researcher, and Executive Director at Norms Africa Development (NORMS). Howard holds a PhD from Ulster University, Northern Ireland, where he developed a unique, research-led framework for business and human rights national action plans for Sub-Saharan Africa. He has extensive national and international experience, over 16 years, with the Office of the United Nations High Commissioner for Human Rights and International Rescue Committee, including in Kenya, Tanzania, Uganda, and United Kingdom. He has participated as an expert advisor to the Government of Uganda, United Nations Agencies, business enterprises, and civil society organisations on business and human rights, and the 2030 Agenda for Sustainable Development. Howard’s primary research interest lie in business and human rights, economic, social, and cultural rights, corporate social responsibility and governance, and sustainable development.
+image: "/assets/images/howard.png"
 ---

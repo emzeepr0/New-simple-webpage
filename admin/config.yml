@@ -7,53 +7,124 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
+  - name: "slider"
+    label: "Slider"
+    folder: "content/slider"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Background Image", name: "background_image", widget: "image" }
+      - { label: "Button Text", name: "button_text", widget: "string" }
+      - { label: "Button Link", name: "button_link", widget: "string" }
+
   - name: "about"
     label: "About Us"
     folder: "content/about"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Paragraphs", name: "paragraphs", widget: "list", field: {label: "Paragraph", name: "paragraph", widget: "text"} }
+      - { label: "Image", name: "image", widget: "image" }
 
-  - name: "news"
+  - name: "focus"
+    label: "Core Focus"
+    folder: "content/focus"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+
+  - name: "services"
+    label: "Strategy"
+    folder: "content/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Services", name: "services", widget: "list", field: {label: "Service", name: "service", widget: "string"} }
+
+  - name: "portfolio"
     label: "News"
-    folder: "content/news"
+    folder: "content/portfolio"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
 
-  - name: "events"
-    label: "Events"
-    folder: "content/events"
+  - name: "testimonial"
+    label: "Event"
+    folder: "content/testimonial"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Content", name: "content", widget: "text" }
+
+  - name: "board"
+    label: "Partnership"
+    folder: "content/board"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+
+  - name: "funding"
+    label: "Funding"
+    folder: "content/funding"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
 
   - name: "team"
-    label: "Team Members"
+    label: "Team"
     folder: "content/team"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Role", name: "role", widget: "string" }
-      - { label: "Bio", name: "bio", widget: "markdown" }
+      - { label: "Bio", name: "bio", widget: "text" }
       - { label: "Image", name: "image", widget: "image" }
 
   - name: "contact"
-    label: "Contact Info"
+    label: "Contact Us"
     files:
-      - label: "Contact Details"
-        name: "contact_details"
+      - label: "Contact Info"
+        name: "contact_info"
         file: "content/contact/contact.md"
         fields:
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Phone", name: "phone", widget: "string" }
           - { label: "Address", name: "address", widget: "text" }
+
+  - name: "navbar"
+    label: "Navbar"
+    file: "content/navbar/navbar.md"
+    fields:
+      - { label: "Logo Image", name: "logo_image", widget: "image" }
+      - { label: "Logo Alt Text", name: "logo_alt", widget: "string" }
+      - { label: "Menu Items", name: "menu_items", widget: "list", fields: [
+          { label: "Text", name: "text", widget: "string" },
+          { label: "Link", name: "link", widget: "string" }
+        ] }
+
+  - name: "footer"
+    label: "Footer"
+    file: "content/footer/footer.md"
+    fields:
+      - { label: "Copyright Text", name: "copyright_text", widget: "string" }
