@@ -19,7 +19,12 @@
             });
           }
         });
-        window.netlifyIdentity.init();
+        // Handle URL hash for password recovery and other flows
+        window.netlifyIdentity.init({
+          // This will parse the URL hash and handle recovery_token, etc.
+          // It is important for password reset to work properly
+          // No additional config needed here, just ensure init is called
+        });
       }
     </script>
   </body>
