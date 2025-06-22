@@ -1,5 +1,5 @@
 ---
-heading: Who we are
+heading: Who we ar
 content: f﻿sfddsdasfscscfcdfsfcdsfdsfdsdf
 image: /assets/images/about-2_1.jpg
 ---
