@@ -10,7 +10,9 @@ collections:
   # Navbar
   - name: "navbar"
     label: "Navbar"
-    files: "content/navbar/navbar.md"
+    files:
+      - file: "content/navbar/navbar.md"
+        label: "Navbar Content"
     fields:
       - { label: "Logo Image", name: "logo_image", widget: "image" }
       - { label: "Logo Alt Text", name: "logo_alt", widget: "string" }
@@ -19,7 +21,7 @@ collections:
           { label: "Link", name: "link", widget: "string" }
         ] }
 
-  # Slider
+  # Slider (folder-based - correct as-is)
   - name: "slider"
     label: "Slider"
     folder: "content/slider"
@@ -36,7 +38,9 @@ collections:
   # About Us
   - name: "about"
     label: "About Us"
-    files: "content/about/about.md"
+    files:
+      - file: "content/about/about.md"
+        label: "About Page"
     fields:
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -45,12 +49,14 @@ collections:
   # Core Focus
   - name: "focus"
     label: "Core Focus"
-    files: "content/focus/focus.md"
+    files:
+      - file: "content/focus/focus.md"
+        label: "Core Focus Content"
     fields:
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
 
-  # News
+  # News (folder-based - correct as-is)
   - name: "news"
     label: "News"
     folder: "content/news"
@@ -63,7 +69,7 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Date", name: "date", widget: "datetime" }
 
-  # Events
+  # Events (folder-based - correct as-is)
   - name: "events"
     label: "Events"
     folder: "content/events"
@@ -78,7 +84,9 @@ collections:
   # Creating Opportunities
   - name: "opportunities"
     label: "Creating Opportunities"
-    files: "content/opportunities/opportunities.md"
+    files:
+      - file: "content/opportunities/opportunities.md"
+        label: "Opportunities Content"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -87,7 +95,9 @@ collections:
   # Sustainable Development
   - name: "sustainable"
     label: "Sustainable Development"
-    files: "content/sustainable/sustainable.md"
+    files:
+      - file: "content/sustainable/sustainable.md"
+        label: "Sustainable Development Content"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -96,13 +106,15 @@ collections:
   # Our Strategy
   - name: "strategy"
     label: "Our Strategy"
-    files: "content/strategy/strategy.md"
+    files:
+      - file: "content/strategy/strategy.md"
+        label: "Strategy Content"
     fields:
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Services", name: "services", widget: "list", field: {label: "Service", name: "service", widget: "string"} }
 
-  # Our Impact
+  # Our Impact (folder-based - correct as-is)
   - name: "impact"
     label: "Our Impact"
     folder: "content/impact"
@@ -117,7 +129,9 @@ collections:
   # Our Commitment
   - name: "commitment"
     label: "Our Commitment"
-    files: "content/commitment/commitment.md"
+    files:
+      - file: "content/commitment/commitment.md"
+        label: "Commitment Content"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -126,12 +140,14 @@ collections:
   # Where We Work
   - name: "locations"
     label: "Where We Work"
-    files: "content/locations/locations.md"
+    files:
+      - file: "content/locations/locations.md"
+        label: "Locations Content"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
 
-  # Team
+  # Team (folder-based - correct as-is)
   - name: "team"
     label: "Team"
     folder: "content/team"
@@ -148,7 +164,9 @@ collections:
   # Let's Connect
   - name: "contact"
     label: "Contact Us"
-    files: "content/contact/contact.md"
+    files:
+      - file: "content/contact/contact.md"
+        label: "Contact Page"
     fields:
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
@@ -165,7 +183,9 @@ collections:
   # Footer
   - name: "footer"
     label: "Footer"
-    files: "content/footer/footer.md"
+    files:
+      - file: "content/footer/footer.md"
+        label: "Footer Content"
     fields:
       - { label: "Copyright Text", name: "copyright_text", widget: "string" }
       - { label: "Additional Content", name: "content", widget: "markdown", required: false }
