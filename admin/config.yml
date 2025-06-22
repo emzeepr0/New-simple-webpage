@@ -10,7 +10,7 @@ collections:
   # Navbar
   - name: "navbar"
     label: "Navbar"
-    file: "content/navbar/navbar.md"
+    files: "content/navbar/navbar.md"
     fields:
       - { label: "Logo Image", name: "logo_image", widget: "image" }
       - { label: "Logo Alt Text", name: "logo_alt", widget: "string" }
@@ -36,7 +36,7 @@ collections:
   # About Us
   - name: "about"
     label: "About Us"
-    file: "content/about/about.md"
+    files: "content/about/about.md"
     fields:
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -45,7 +45,7 @@ collections:
   # Core Focus
   - name: "focus"
     label: "Core Focus"
-    file: "content/focus/focus.md"
+    files: "content/focus/focus.md"
     fields:
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -78,7 +78,7 @@ collections:
   # Creating Opportunities
   - name: "opportunities"
     label: "Creating Opportunities"
-    file: "content/opportunities/opportunities.md"
+    files: "content/opportunities/opportunities.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -87,7 +87,7 @@ collections:
   # Sustainable Development
   - name: "sustainable"
     label: "Sustainable Development"
-    file: "content/sustainable/sustainable.md"
+    files: "content/sustainable/sustainable.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -96,7 +96,7 @@ collections:
   # Our Strategy
   - name: "strategy"
     label: "Our Strategy"
-    file: "content/strategy/strategy.md"
+    files: "content/strategy/strategy.md"
     fields:
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
@@ -117,7 +117,7 @@ collections:
   # Our Commitment
   - name: "commitment"
     label: "Our Commitment"
-    file: "content/commitment/commitment.md"
+    files: "content/commitment/commitment.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -126,7 +126,7 @@ collections:
   # Where We Work
   - name: "locations"
     label: "Where We Work"
-    file: "content/locations/locations.md"
+    files: "content/locations/locations.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "content", widget: "markdown" }
@@ -148,7 +148,7 @@ collections:
   # Let's Connect
   - name: "contact"
     label: "Contact Us"
-    file: "content/contact/contact.md"
+    files: "content/contact/contact.md"
     fields:
       - { label: "Heading", name: "heading", widget: "string" }
       - { label: "Description", name: "description", widget: "markdown" }
@@ -165,7 +165,7 @@ collections:
   # Footer
   - name: "footer"
     label: "Footer"
-    file: "content/footer/footer.md"
+    files: "content/footer/footer.md"
     fields:
       - { label: "Copyright Text", name: "copyright_text", widget: "string" }
       - { label: "Additional Content", name: "content", widget: "markdown", required: false }
