@@ -1,6 +1,7 @@
 ---
-heading: "Who we are"
-image: "/assets/images/about-2_1.jpg"
+heading: Who we are
+content: f﻿sfddsdasfscscfcdfsfcdsfdsfdsdf
+image: /assets/images/about-2_1.jpg
 ---
 
 AfriRIGHTS is a Pan-African think tank working to ensure that business practices in Africa respect and uphold human rights. Despite advances in the promotion and protection of human rights, Africa, as arguably one of the fastest growing economies in world, is grappling with numerous legislative, regulatory, policy and institutional challenges that hinder the effective realization of business-related human rights.
