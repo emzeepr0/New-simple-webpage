@@ -1,7 +1,9 @@
 ---
-title: "Promoting rights-centric business practices in Africa"
-subtitle: "Human right and justice"
-background_image: "/assets/images/gender_banner_2.png"
+heading: "Our Strategy"
+services:
+  - "Research and Innovation"
+  - "Legal Aid"
+  - "Technical and Advisory Assistance"
 ---
 
 Through gender-sensitive analysis, research, publication and evidence-based programming, AfriRIGHTS aims to drive transformative change across the continent that aligns business operations with human rights principles.

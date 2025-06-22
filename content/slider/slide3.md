@@ -1,8 +1,7 @@
 ---
-title: "Protecting the Planet and Its Inhabitants"
+title: "Promoting rights-centric business practices in Africa"
 subtitle: "Climate change and human rights"
-description: "Championing Human Rights Amidst Climate Change: NORMS' Collaborative Initiatives in Sub-Saharan Africa"
 background_image: "/assets/images/climate_banner_2.png"
-button_text: "About Us"
-button_link: "#about-area"
 ---
+
+Through gender-sensitive analysis, research, publication and evidence-based programming, AfriRIGHTS aims to drive transformative change across the continent that aligns business operations with human rights principles.

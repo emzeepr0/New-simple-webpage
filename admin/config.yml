@@ -7,111 +7,7 @@ media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
 collections:
-  - name: "slider"
-    label: "Slider"
-    folder: "content/slider"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Background Image", name: "background_image", widget: "image" }
-      - { label: "Button Text", name: "button_text", widget: "string" }
-      - { label: "Button Link", name: "button_link", widget: "string" }
-
-  - name: "about"
-    label: "About Us"
-    folder: "content/about"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Heading", name: "heading", widget: "string" }
-      - { label: "Paragraphs", name: "paragraphs", widget: "list", field: {label: "Paragraph", name: "paragraph", widget: "text"} }
-      - { label: "Image", name: "image", widget: "image" }
-
-  - name: "focus"
-    label: "Core Focus"
-    folder: "content/focus"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Heading", name: "heading", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-
-  - name: "services"
-    label: "Strategy"
-    folder: "content/services"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Heading", name: "heading", widget: "string" }
-      - { label: "Services", name: "services", widget: "list", field: {label: "Service", name: "service", widget: "string"} }
-
-  - name: "portfolio"
-    label: "News"
-    folder: "content/portfolio"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Image", name: "image", widget: "image" }
-
-  - name: "testimonial"
-    label: "Event"
-    folder: "content/testimonial"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "text" }
-
-  - name: "board"
-    label: "Partnership"
-    folder: "content/board"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Position", name: "position", widget: "string" }
-      - { label: "Bio", name: "bio", widget: "text" }
-      - { label: "Image", name: "image", widget: "image" }
-
-  - name: "funding"
-    label: "Funding"
-    folder: "content/funding"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Heading", name: "heading", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-
-  - name: "team"
-    label: "Team"
-    folder: "content/team"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Role", name: "role", widget: "string" }
-      - { label: "Bio", name: "bio", widget: "text" }
-      - { label: "Image", name: "image", widget: "image" }
-
-  - name: "contact"
-    label: "Contact Us"
-    files:
-      - label: "Contact Info"
-        name: "contact_info"
-        file: "content/contact/contact.md"
-        fields:
-          - { label: "Heading", name: "heading", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Email", name: "email", widget: "string" }
-          - { label: "Phone", name: "phone", widget: "string" }
-          - { label: "Address", name: "address", widget: "text" }
-
+  # Navbar
   - name: "navbar"
     label: "Navbar"
     file: "content/navbar/navbar.md"
@@ -123,8 +19,153 @@ collections:
           { label: "Link", name: "link", widget: "string" }
         ] }
 
+  # Slider
+  - name: "slider"
+    label: "Slider"
+    folder: "content/slider"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Background Image", name: "background_image", widget: "image" }
+      - { label: "Button Text", name: "button_text", widget: "string", required: false }
+      - { label: "Button Link", name: "button_link", widget: "string", required: false }
+
+  # About Us
+  - name: "about"
+    label: "About Us"
+    file: "content/about/about.md"
+    fields:
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
+
+  # Core Focus
+  - name: "focus"
+    label: "Core Focus"
+    file: "content/focus/focus.md"
+    fields:
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+
+  # News
+  - name: "news"
+    label: "News"
+    folder: "content/news"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Date", name: "date", widget: "datetime" }
+
+  # Events
+  - name: "events"
+    label: "Events"
+    folder: "content/events"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Event Date", name: "event_date", widget: "datetime" }
+
+  # Creating Opportunities
+  - name: "opportunities"
+    label: "Creating Opportunities"
+    file: "content/opportunities/opportunities.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
+
+  # Sustainable Development
+  - name: "sustainable"
+    label: "Sustainable Development"
+    file: "content/sustainable/sustainable.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
+
+  # Our Strategy
+  - name: "strategy"
+    label: "Our Strategy"
+    file: "content/strategy/strategy.md"
+    fields:
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Services", name: "services", widget: "list", field: {label: "Service", name: "service", widget: "string"} }
+
+  # Our Impact
+  - name: "impact"
+    label: "Our Impact"
+    folder: "content/impact"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Category", name: "category", widget: "string" }
+
+  # Our Commitment
+  - name: "commitment"
+    label: "Our Commitment"
+    file: "content/commitment/commitment.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "SDG Image", name: "sdg_image", widget: "image" }
+
+  # Where We Work
+  - name: "locations"
+    label: "Where We Work"
+    file: "content/locations/locations.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Content", name: "content", widget: "markdown" }
+
+  # Team
+  - name: "team"
+    label: "Team"
+    folder: "content/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Twitter", name: "twitter", widget: "string", required: false }
+      - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }
+
+  # Let's Connect
+  - name: "contact"
+    label: "Contact Us"
+    file: "content/contact/contact.md"
+    fields:
+      - { label: "Heading", name: "heading", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Email", name: "email", widget: "string" }
+      - { label: "Phone", name: "phone", widget: "string" }
+      - { label: "Address", name: "address", widget: "markdown" }
+      - label: "Form Settings"
+        name: "form"
+        widget: "object"
+        fields:
+          - { label: "Submit Button Text", name: "submit_text", widget: "string", default: "Submit" }
+          - { label: "Success Message", name: "success_message", widget: "string", default: "Thank you for your message! We'll get back to you soon." }
+
+  # Footer
   - name: "footer"
     label: "Footer"
     file: "content/footer/footer.md"
     fields:
       - { label: "Copyright Text", name: "copyright_text", widget: "string" }
+      - { label: "Additional Content", name: "content", widget: "markdown", required: false }

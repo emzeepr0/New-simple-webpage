@@ -1,11 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="zxx">
-<!--<![endif]-->
-
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,300 +7,388 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <title>AfriRIGHT</title>
-  <!--favicon-->
   <link rel="shortcut icon" type="image/png" href="assets/images/norms icon-2.png" />
-  <!--bootstrap css-->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
-  <!--owl carousel css-->
   <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
-  <!--animated headline css-->
   <link rel="stylesheet" type="text/css" href="assets/css/animated-headline.css" />
-  <!--magnific popup css-->
   <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
-  <!--et line icon css-->
   <link rel="stylesheet" type="text/css" href="assets/css/et-line.css" />
-  <!--icofont css-->
   <link rel="stylesheet" type="text/css" href="assets/css/icofont.css" />
-  <!--animate css-->
   <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
-  <!--nav css-->
   <link rel="stylesheet" type="text/css" href="assets/css/nav.css" />
-  <!--main css-->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  <!--responsive css-->
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
-
-  <!--Modanizr JS-->
-  <script src="assets/js/modernizr.custom.js"></script>
-  <!--[if IE]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body>
-  <!--start preloader-->
+  <!-- Preloader -->
   <div class="preloader">
     <div class="spinner">
       <div class="double-bounce1"></div>
       <div class="double-bounce2"></div>
     </div>
   </div>
-  <!--end preloader-->
 
-  <!--start body wrap-->
   <div id="body-wrap">
-    <!--Start Header-->
+    <!-- Header with Navbar -->
     <header id="header">
-      <!--start mainmenu-->
       <div class="main-menu">
-        <!-- Start Navigation -->
         <nav class="navbar navbar-default bootsnav" data-spy="affix" data-offset-top="50">
           <div class="container">
-            <!--start header navigation-->
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                 <i class="icofont icofont-navigation-menu"></i>
               </button>
-              <a class="navbar-brand logo" href="index.html"><img src="assets/images/norms_logo_gold.png" class="logo"
-                  alt="" /></a>
-              <a class="navbar-brand logo-two" href="index.html"><img src="assets/images/norms_logo.png" class="logo"
-                  alt="" /></a>
+              <a class="navbar-brand logo" href="index.html">
+                <img src="assets/images/norms_logo_gold.png" class="logo" alt="" id="navbar-logo" />
+              </a>
+              <a class="navbar-brand logo-two" href="index.html">
+                <img src="assets/images/norms_logo.png" class="logo" alt="" />
+              </a>
             </div>
-            <!--end header navigation-->
-
-    <!--Collect the nav links, forms, and other content for toggling-->
-    <div class="collapse navbar-collapse" id="navbar-menu">
-      <ul class="nav navbar-nav navbar-right" id="navbar-menu-items" data-in="fadeIn">
-        <!-- Navbar menu items will be dynamically inserted here -->
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+              <ul class="nav navbar-nav navbar-right" id="navbar-menu-items" data-in="fadeIn">
+                <!-- Dynamically populated -->
+              </ul>
+            </div>
           </div>
         </nav>
-        <!--end njavigation-->
       </div>
-      <!--end mainmenu-->
-      <div class="clearfix"></div>
     </header>
-    <!--end header-->
 
-    <!--start slider area-->
+    <!-- Slider Area -->
     <section id="slider-area">
-      <!--start slider-->
       <div class="silder owl-carousel" id="slider-container">
-        <!-- Slides will be dynamically inserted here -->
+        <!-- Dynamically populated -->
       </div>
-      <!--end slider-->
     </section>
-    <!--end slider area-->
 
-    <!--start about area-->
+    <!-- About Area -->
     <section id="about-area" class="bg-gray">
       <div class="container">
         <div class="row">
-          <!--start about image-->
           <div class="col-md-6">
             <div class="about-image" id="about-image-container">
-              <!-- Image will be dynamically inserted here -->
+              <!-- Dynamically populated -->
             </div>
           </div>
-          <!--end about image-->
-          <!--start about content-->
           <div class="col-md-6">
             <div class="about-content" id="about-content-container">
-              <!-- About content will be dynamically inserted here -->
+              <!-- Dynamically populated -->
             </div>
           </div>
-          <!--end about content-->
         </div>
       </div>
     </section>
-    <!--end about area-->
 
-    <!--start focus  area-->
+    <!-- Core Focus Area -->
     <section id="focus-area" class="bg-cover">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <!--start focuscontent-->
           <div class="col-sm-7">
             <div class="why-choose-content" id="focus-content-container">
-              <!-- Focus content will be dynamically inserted here -->
+              <!-- Dynamically populated -->
             </div>
           </div>
-          <!--end focus content-->
-
-          <!--start skill bars-->
           <div class="col-sm-5">
             <div class="skill-bars" id="skill-bars-container">
-              <!-- Skill bars will be dynamically inserted here -->
+              <!-- Dynamically populated -->
             </div>
           </div>
-          <!--end skill bars-->
         </div>
       </div>
     </section>
-    <!--end focus area-->
 
-    <!--start services area-->
-    <section id="services-area">
+    <!-- News Area -->
+    <section id="news-area" class="bg-white bg-themes">
       <div class="container">
         <div class="row">
-          <!--start section heading-->
-          <div class="col-md-8 col-md-offset-2">
-            <div class="section-heading text-center" id="services-heading-container">
-              <!-- Services heading will be dynamically inserted here -->
+          <div class="col-md-6">
+            <div class="news-image" id="news-image-container">
+              <!-- Dynamically populated -->
             </div>
           </div>
-          <!--end section heading-->
-        </div>
-        <div class="row" id="services-list-container">
-          <!-- Services list will be dynamically inserted here -->
+          <div class="col-md-6">
+            <div class="news-content" id="news-content-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!--end services area-->
 
-    <!--start portfolio area-->
-    <section id="portfolio-area">
+    <!-- Events Area -->
+    <section id="events-area" class="bg-gray bg-themes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="events-content" id="events-content-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="events-image" id="events-image-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Creating Opportunities Area -->
+    <section id="opportunities-area" class="bg-white bg-themes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="opportunities-image" id="opportunities-image-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="opportunities-content" id="opportunities-content-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sustainable Development Area -->
+    <section id="sustainable-area" class="bg-gray bg-themes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="sustainable-content" id="sustainable-content-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="sustainable-image" id="sustainable-image-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Strategy Area -->
+    <section id="strategy-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="section-heading text-center" id="strategy-heading-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+        <div class="row" id="strategy-list-container">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Impact Area -->
+    <section id="impact-area">
       <div class="row">
         <div class="container">
-          <!--start section heading-->
           <div class="col-md-8 col-md-offset-2">
-            <div class="section-heading text-center" id="portfolio-heading-container">
-              <!-- Portfolio heading will be dynamically inserted here -->
+            <div class="section-heading text-center" id="impact-heading-container">
+              <!-- Dynamically populated -->
             </div>
           </div>
         </div>
       </div>
       <div class="container-fluid">
-        <div class="row" id="portfolio-list-container">
-          <!-- Portfolio items will be dynamically inserted here -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="portfolio-menu text-center" id="impact-menu-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+        <div class="row" id="impact-list-container">
+          <!-- Dynamically populated -->
         </div>
       </div>
     </section>
-    <!--end portfolio area-->
 
-    <!--start testimonial area-->
-    <section id="testimonial-area" class="bg-cover">
+    <!-- Our Commitment Area -->
+    <section id="commitment-area" class="bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="section-heading text-center" id="commitment-heading-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center" id="commitment-image-container">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Where We Work Area -->
+    <section id="locations-area" class="bg-cover">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
-            <div class="testimonial owl-carousel" id="testimonial-container">
-              <!-- Testimonials will be dynamically inserted here -->
+            <div class="locations-content text-center" id="locations-content-container">
+              <!-- Dynamically populated -->
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--end testimonial area-->
 
-    <!--start board member area-->
-    <section id="board-member-area">
-      <div class="container">
-        <div class="row">
-          <!--start section heading-->
-          <div class="col-md-8 col-md-offset-2">
-            <div class="section-heading text-center" id="board-heading-container">
-              <!-- Board heading will be dynamically inserted here -->
-            </div>
-          </div>
-          <!--end section heading-->
-        </div>
-        <div class="row" id="board-list-container">
-          <!-- Board members will be dynamically inserted here -->
-        </div>
-      </div>
-    </section>
-    <!--end board member area-->
-
-    <!--start funding area-->
-    <section id="funding-area" class="bg-gray">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2" id="funding-content-container">
-            <!-- Funding content will be dynamically inserted here -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--end funding area-->
-
-    <!--start team area-->
+    <!-- Team Area -->
     <section id="team-area">
       <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="section-heading text-center" id="team-heading-container">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
         <div class="row" id="team-list-container">
-          <!-- Team members will be dynamically inserted here -->
+          <!-- Dynamically populated -->
         </div>
       </div>
     </section>
-    <!--end team area-->
 
-    <!--start contact area-->
+    <!-- Contact Area -->
     <section id="contact-area">
       <div class="container">
         <div class="row">
-          <!--start section heading-->
           <div class="col-md-8 col-md-offset-2">
             <div class="section-heading text-center" id="contact-heading-container">
-              <!-- Contact heading will be dynamically inserted here -->
+              <!-- Dynamically populated -->
             </div>
           </div>
-          <!--end section heading-->
         </div>
         <div class="row">
-          <div class="col-md-10 col-md-offset-1" id="contact-info-container">
-            <!-- Contact info will be dynamically inserted here -->
+          <div class="col-md-10 col-md-offset-1">
+            <div class="contact-content row">
+              <div class="col-sm-8">
+                <div class="contact-form">
+                  <form name="contact" method="POST" data-netlify="true" id="contact-form" netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p class="hidden">
+                      <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
+                    <div class="form-group row">
+                      <div class="col-sm-6">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required />
+                      </div>
+                      <div class="col-sm-6">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required />
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-12">
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" />
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-md-12">
+                        <textarea class="form-control" cols="30" rows="10" id="message" name="message" placeholder="Message" required></textarea>
+                      </div>
+                    </div>
+                    <div data-netlify-recaptcha="true"></div>
+                    <button type="submit" id="form-submit-btn">Submit</button>
+                  </form>
+                  <div id="form-messages"></div>
+                </div>
+              </div>
+              <div class="col-sm-4" id="contact-info-container">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!--end contact area-->
 
-    <!--start footer-->
+    <!-- Footer -->
     <footer id="footer" class="bg-gray">
       <div class="container" id="footer-content-container">
-        <!-- Footer content will be dynamically inserted here -->
+        <!-- Dynamically populated -->
       </div>
-  </footer>
-  <!--end footer-->
-</div>
-<!--end body wrap-->
+    </footer>
+  </div>
 
-<script>
-  // Utility function to fetch markdown and convert to HTML
-  async function fetchMarkdown(path) {
-    const response = await fetch(path);
-    const text = await response.text();
-    return marked.parse(text);
-  }
+  <!-- JavaScript files -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/magnific-popup.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/images-loded.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/animated-headline.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="mailer/ajax-contact-form.js"></script>
+  <script src="assets/js/main.js"></script>
 
-  // Render Navbar dynamically
-  async function renderNavbar() {
-    const navbarContent = await fetchMarkdown('content/navbar/navbar.md');
-    const navbarMenu = document.getElementById('navbar-menu-items');
-    if (navbarMenu) {
-      const div = document.createElement('div');
-      div.innerHTML = navbarContent;
-      // Clear existing items
+  <!-- Dynamic Content Loading Script -->
+  <script>
+    // Utility function to parse markdown with frontmatter
+    async function parseMarkdownWithFrontmatter(filePath) {
+      try {
+        const response = await fetch(filePath);
+        if (!response.ok) return null;
+        
+        const text = await response.text();
+        const frontmatterMatch = text.match(/---\s*([\s\S]*?)\s*---/);
+        
+        if (!frontmatterMatch) {
+          return { content: marked.parse(text) };
+        }
+        
+        const frontmatter = jsyaml.load(frontmatterMatch[1]);
+        const markdownContent = text.slice(frontmatterMatch[0].length).trim();
+        const htmlContent = marked.parse(markdownContent);
+        
+        return { frontmatter, content: htmlContent };
+      } catch (error) {
+        console.error(`Error parsing ${filePath}:`, error);
+        return null;
+      }
+    }
+
+    // Render Navbar
+    async function renderNavbar() {
+      const navbarData = await parseMarkdownWithFrontmatter('content/navbar/navbar.md');
+      const navbarMenu = document.getElementById('navbar-menu-items');
+      
+      if (!navbarMenu) return;
+      
       navbarMenu.innerHTML = '';
-      // Parse menu items from markdown frontmatter (simulate parsing)
-      // For simplicity, we will fetch JSON from a separate file or parse manually here
-      // But since we have markdown, we can parse the menu_items list from the markdown frontmatter
-      // For now, we will hardcode the menu items as per the markdown content
-      const menuItems = [
+      
+      const menuItems = navbarData?.frontmatter?.menu_items || [
         { text: "Home", link: "#slider-area" },
         { text: "About Us", link: "#about-area" },
         { text: "Core Focus", link: "#focus-area" },
-        { text: "Strategy", link: "#services-area" },
-        { text: "News", link: "#portfolio-area" },
-        { text: "Event", link: "#testimonial-area" },
-        { text: "Partnership", link: "#board-member-area" },
-        { text: "Funding", link: "#funding-area" },
+        { text: "News", link: "#news-area" },
+        { text: "Events", link: "#events-area" },
+        { text: "Creating Opportunities", link: "#opportunities-area" },
+        { text: "Sustainable Development", link: "#sustainable-area" },
+        { text: "Our Strategy", link: "#strategy-area" },
+        { text: "Our Impact", link: "#impact-area" },
+        { text: "Our Commitment", link: "#commitment-area" },
+        { text: "Where We Work", link: "#locations-area" },
         { text: "Team", link: "#team-area" },
         { text: "Contact Us", link: "#contact-area" }
       ];
+      
       menuItems.forEach(item => {
         const li = document.createElement('li');
         const a = document.createElement('a');
@@ -315,266 +397,586 @@
         li.appendChild(a);
         navbarMenu.appendChild(li);
       });
-    }
-  }
 
-  // Render Footer dynamically
-  async function renderFooter() {
-    const footerContent = await fetchMarkdown('content/footer/footer.md');
-    const footerContainer = document.getElementById('footer-content-container');
-    if (footerContainer) {
-      footerContainer.innerHTML = footerContent;
-    }
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
-    renderNavbar();
-    renderFooter();
-  });
-</script>
-
-  <!--jQuery js-->
-  <script src="assets/js/jquery.min.js"></script>
-  <!--counter js-->
-  <script src="assets/js/waypoints.js"></script>
-  <script src="assets/js/jquery.counterup.min.js"></script>
-  <!--bootstrap js-->
-  <script src="assets/js/bootstrap.min.js"></script>
-  <!--magnic popUp js-->
-  <script src="assets/js/magnific-popup.min.js"></script>
-  <!--isotope js-->
-  <script src="assets/js/isotope.min.js"></script>
-  <!--image Loded js-->
-  <script src="assets/js/images-loded.min.js"></script>
-  <!--owl Carousel js-->
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <!--animated headline js-->
-  <script src="assets/js/animated-headline.js"></script>
-  <!--bootsnavs js-->
-  <script src="assets/js/nav.js"></script>
-  <!--contact mailer js-->
-  <script src="mailer/ajax-contact-form.js"></script>
-  <!--main-->
-  <script src="assets/js/main.js"></script>
-  <!-- Include marked.js for markdown parsing -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-  <script>
-    // Utility function to fetch markdown and convert to HTML
-    async function fetchMarkdown(path) {
-      const response = await fetch(path);
-      const text = await response.text();
-      return marked.parse(text);
+      // Set logo if available
+      if (navbarData?.frontmatter?.logo_image) {
+        document.getElementById('navbar-logo').src = navbarData.frontmatter.logo_image;
+      }
     }
 
-    // Render Slider content dynamically
+    // Render Slider
     async function renderSlider() {
       const sliderContainer = document.getElementById('slider-container');
-      const slides = [
-        'content/slider/slide1.md',
-        'content/slider/slide2.md',
-        'content/slider/slide3.md',
-        'content/slider/slide4.md'
-      ];
+      if (!sliderContainer) return;
+
       sliderContainer.innerHTML = '';
-      for (const slidePath of slides) {
-        const slideContent = await fetchMarkdown(slidePath);
-        const slideDiv = document.createElement('div');
-        slideDiv.className = 'slide-single bg-cover full-height';
-        slideDiv.style.backgroundImage = `url(${extractImageUrl(slideContent)})`;
-        slideDiv.innerHTML = extractSlideHtml(slideContent);
-        sliderContainer.appendChild(slideDiv);
+
+      try {
+        // Get list of slider files
+        const sliderFiles = [
+          'content/slider/slide1.md',
+          'content/slider/slide2.md',
+          'content/slider/slide3.md',
+          'content/slider/slide4.md'
+        ];
+
+        // Load all slides first
+        const slides = await Promise.all(
+          sliderFiles.map(async filePath => {
+            try {
+              const slideData = await parseMarkdownWithFrontmatter(filePath);
+              return slideData;
+            } catch (error) {
+              console.error(`Error loading ${filePath}:`, error);
+              return null;
+            }
+          })
+        );
+
+        // Filter out any failed loads
+        const validSlides = slides.filter(slide => slide !== null);
+
+        // Add slides to DOM
+        validSlides.forEach(slideData => {
+          const slideDiv = document.createElement('div');
+          slideDiv.className = 'slide-single bg-cover full-height';
+          slideDiv.style.backgroundImage = `url(${slideData.frontmatter?.background_image || 'assets/images/default_banner.png'})`;
+          
+          slideDiv.innerHTML = `
+            <div class="overlay"></div>
+            <div class="slide-caption d-table">
+              <div class="d-table-cell">
+                ${slideData.frontmatter?.title ? `<h4 class="font-700 color-primary">${slideData.frontmatter.title}</h4>` : ''}
+                ${slideData.frontmatter?.subtitle ? `<h1 class="text-white font-700">${slideData.frontmatter.subtitle}</h1>` : ''}
+                ${slideData.content ? `<p class="text-white text-p">${slideData.content}</p>` : ''}
+                ${slideData.frontmatter?.button_text ? `
+                  <div class="slide-btn">
+                    <a href="${slideData.frontmatter.button_link || '#'}">${slideData.frontmatter.button_text}</a>
+                  </div>
+                ` : ''}
+              </div>
+            </div>
+          `;
+          
+          sliderContainer.appendChild(slideDiv);
+        });
+
+        // Initialize carousel after a small delay to ensure DOM is ready
+        setTimeout(() => {
+          if (typeof $ !== 'undefined' && $.fn.owlCarousel) {
+            $('.silder.owl-carousel').owlCarousel({
+              items: 1,
+              loop: true,
+              autoplay: true,
+              autoplayTimeout: 5000,
+              nav: true,
+              dots: true,
+              onInitialized: function() {
+                console.log('Carousel initialized successfully');
+              }
+            });
+          } else {
+            console.error('Owl Carousel not loaded');
+          }
+        }, 100);
+
+      } catch (error) {
+        console.error('Error rendering slider:', error);
       }
-      // Initialize owl carousel after slides are added
-      $('.silder.owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        nav: true,
-        dots: true
-      });
     }
 
-    // Helper function to extract background image URL from markdown content
-    function extractImageUrl(markdownHtml) {
-      const div = document.createElement('div');
-      div.innerHTML = markdownHtml;
-      const img = div.querySelector('img');
-      if (img) {
-        return img.src;
-      }
-      // Fallback or default image
-      return 'assets/images/default_banner.png';
-    }
-
-    // Helper function to extract slide HTML content from markdown
-    function extractSlideHtml(markdownHtml) {
-      const div = document.createElement('div');
-      div.innerHTML = markdownHtml;
-      // Extract relevant slide content, e.g., headings, paragraphs, buttons
-      // For simplicity, return innerHTML
-      return div.innerHTML;
-    }
-
-    // Render About Us content dynamically
+    // Render About Section
     async function renderAbout() {
-      const aboutContent = await fetchMarkdown('content/about/about.md');
+      const aboutData = await parseMarkdownWithFrontmatter('content/about/about.md');
+      if (!aboutData) return;
+
       const aboutImageContainer = document.getElementById('about-image-container');
       const aboutContentContainer = document.getElementById('about-content-container');
+
       if (aboutContentContainer) {
-        aboutContentContainer.innerHTML = aboutContent;
+        aboutContentContainer.innerHTML = `
+          <h6 class="font-700 color-primary text-uppercase">About Us</h6>
+          <h2 class="font-700 text-capitalize">${aboutData.frontmatter?.heading || 'Who we are'}</h2>
+          ${aboutData.content || ''}
+        `;
       }
-      // Optionally extract and set image separately if needed
+
+      if (aboutImageContainer && aboutData.frontmatter?.image) {
+        aboutImageContainer.innerHTML = `
+          <img src="${aboutData.frontmatter.image}" class="img-responsive" alt="About Us">
+        `;
+      }
     }
 
-    // Render Core Focus content dynamically
+    // Render Focus Section
     async function renderFocus() {
-      const focusContent = await fetchMarkdown('content/focus/focus.md');
+      const focusData = await parseMarkdownWithFrontmatter('content/focus/focus.md');
+      if (!focusData) return;
+
       const focusContentContainer = document.getElementById('focus-content-container');
+      const skillBarsContainer = document.getElementById('skill-bars-container');
+
       if (focusContentContainer) {
-        focusContentContainer.innerHTML = focusContent;
+        focusContentContainer.innerHTML = `
+          <h2 class="font-700 color-primary">${focusData.frontmatter?.heading || 'Core Focus'}</h2>
+          ${focusData.content || ''}
+        `;
       }
-      // Skill bars can be rendered here if data available
-    }
 
-    // Render Services content dynamically
-    async function renderServices() {
-      const servicesContent = await fetchMarkdown('content/services/services.md');
-      const servicesHeadingContainer = document.getElementById('services-heading-container');
-      const servicesListContainer = document.getElementById('services-list-container');
-      if (servicesHeadingContainer) {
-        // Extract and set heading
-        servicesHeadingContainer.innerHTML = '<h2 class="font-700 text-capitalize">' + extractHeading(servicesContent) + '</h2>';
-      }
-      if (servicesListContainer) {
-        // Extract and render services list
-        servicesListContainer.innerHTML = extractServicesList(servicesContent);
-      }
-    }
-
-    // Render Portfolio (News) content dynamically
-    async function renderPortfolio() {
-      const portfolioContent = await fetchMarkdown('content/portfolio/portfolio1.md');
-      const portfolioHeadingContainer = document.getElementById('portfolio-heading-container');
-      const portfolioListContainer = document.getElementById('portfolio-list-container');
-      if (portfolioHeadingContainer) {
-        portfolioHeadingContainer.innerHTML = '<h2 class="font-700 text-capitalize">Our Impact</h2><p>' + extractDescription(portfolioContent) + '</p>';
-      }
-      if (portfolioListContainer) {
-        // Render portfolio items here
-        portfolioListContainer.innerHTML = portfolioContent;
-      }
-    }
-
-    // Render Testimonial (Event) content dynamically
-    async function renderTestimonial() {
-      const testimonialContent = await fetchMarkdown('content/testimonial/testimonial1.md');
-      const testimonialContainer = document.getElementById('testimonial-container');
-      if (testimonialContainer) {
-        testimonialContainer.innerHTML = testimonialContent;
+      if (skillBarsContainer) {
+        skillBarsContainer.innerHTML = `
+          <div class="skill-bar-single">
+            <h6 class="text-white">Business and human rights</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="skill-bar-single">
+            <h6 class="text-white">Gender justice</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="skill-bar-single">
+            <h6 class="text-white">Climate change and human rights</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="skill-bar-single">
+            <h6 class="text-white">Sustainable development</h6>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+            </div>
+          </div>
+        `;
       }
     }
 
-    // Render Board (Partnership) content dynamically
-    async function renderBoard() {
-      const boardContent = await fetchMarkdown('content/board/board1.md');
-      const boardHeadingContainer = document.getElementById('board-heading-container');
-      const boardListContainer = document.getElementById('board-list-container');
-      if (boardHeadingContainer) {
-        boardHeadingContainer.innerHTML = '<h2 class="font-700 text-capitalize">Partnership</h2>';
+    // Render News Section
+    async function renderNews() {
+      const newsData = await parseMarkdownWithFrontmatter('content/news/news1.md');
+      if (!newsData) return;
+
+      const newsImageContainer = document.getElementById('news-image-container');
+      const newsContentContainer = document.getElementById('news-content-container');
+
+      if (newsContentContainer) {
+        newsContentContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${newsData.frontmatter?.title || 'Our News'}</h2>
+          ${newsData.content || ''}
+        `;
       }
-      if (boardListContainer) {
-        boardListContainer.innerHTML = boardContent;
+
+      if (newsImageContainer && newsData.frontmatter?.image) {
+        newsImageContainer.innerHTML = `
+          <img src="${newsData.frontmatter.image}" class="img-responsive" alt="News">
+        `;
       }
     }
 
-    // Render Funding content dynamically
-    async function renderFunding() {
-      const fundingContent = await fetchMarkdown('content/funding/funding.md');
-      const fundingContentContainer = document.getElementById('funding-content-container');
-      if (fundingContentContainer) {
-        fundingContentContainer.innerHTML = fundingContent;
+    // Render Events Section
+    async function renderEvents() {
+      const eventsData = await parseMarkdownWithFrontmatter('content/events/events1.md');
+      if (!eventsData) return;
+
+      const eventsImageContainer = document.getElementById('events-image-container');
+      const eventsContentContainer = document.getElementById('events-content-container');
+
+      if (eventsContentContainer) {
+        eventsContentContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${eventsData.frontmatter?.title || 'Upcoming Events'}</h2>
+          ${eventsData.content || ''}
+        `;
+      }
+
+      if (eventsImageContainer && eventsData.frontmatter?.image) {
+        eventsImageContainer.innerHTML = `
+          <img src="${eventsData.frontmatter.image}" class="img-responsive" alt="Events">
+        `;
       }
     }
 
-    // Render Team content dynamically
+    // Render Opportunities Section
+    async function renderOpportunities() {
+      const opportunitiesData = await parseMarkdownWithFrontmatter('content/opportunities/opportunities.md');
+      if (!opportunitiesData) return;
+
+      const opportunitiesImageContainer = document.getElementById('opportunities-image-container');
+      const opportunitiesContentContainer = document.getElementById('opportunities-content-container');
+
+      if (opportunitiesContentContainer) {
+        opportunitiesContentContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${opportunitiesData.frontmatter?.title || 'Creating Opportunities'}</h2>
+          ${opportunitiesData.content || ''}
+        `;
+      }
+
+      if (opportunitiesImageContainer && opportunitiesData.frontmatter?.image) {
+        opportunitiesImageContainer.innerHTML = `
+          <img src="${opportunitiesData.frontmatter.image}" class="img-responsive" alt="Creating Opportunities">
+        `;
+      }
+    }
+
+    // Render Sustainable Development Section
+    async function renderSustainable() {
+      const sustainableData = await parseMarkdownWithFrontmatter('content/sustainable/sustainable.md');
+      if (!sustainableData) return;
+
+      const sustainableImageContainer = document.getElementById('sustainable-image-container');
+      const sustainableContentContainer = document.getElementById('sustainable-content-container');
+
+      if (sustainableContentContainer) {
+        sustainableContentContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${sustainableData.frontmatter?.title || 'Sustainable Development'}</h2>
+          ${sustainableData.content || ''}
+        `;
+      }
+
+      if (sustainableImageContainer && sustainableData.frontmatter?.image) {
+        sustainableImageContainer.innerHTML = `
+          <img src="${sustainableData.frontmatter.image}" class="img-responsive" alt="Sustainable Development">
+        `;
+      }
+    }
+
+    // Render Strategy Section
+    async function renderStrategy() {
+      const strategyData = await parseMarkdownWithFrontmatter('content/strategy/strategy.md');
+      if (!strategyData) return;
+
+      const strategyHeadingContainer = document.getElementById('strategy-heading-container');
+      const strategyListContainer = document.getElementById('strategy-list-container');
+
+      if (strategyHeadingContainer) {
+        strategyHeadingContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${strategyData.frontmatter?.heading || 'Our Strategy'}</h2>
+          ${strategyData.content || ''}
+        `;
+      }
+
+      if (strategyListContainer) {
+        const services = strategyData.frontmatter?.services || [
+          "Research and Innovation",
+          "Legal Aid",
+          "Technical and Advisory Assistance"
+        ];
+
+        strategyListContainer.innerHTML = services.map(service => `
+          <div class="col-md-4 col-sm-6">
+            <div class="service-single text-center">
+              <i class="icofont icofont-${service.includes('Research') ? 'education' : 
+                service.includes('Legal') ? 'legal' : 'presentation-alt'}"></i>
+              <h5 class="font-600">${service}</h5>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    // Render Impact Section
+    async function renderImpact() {
+      const impactData = await parseMarkdownWithFrontmatter('content/impact/impact1.md');
+      if (!impactData) return;
+
+      const impactHeadingContainer = document.getElementById('impact-heading-container');
+      const impactMenuContainer = document.getElementById('impact-menu-container');
+      const impactListContainer = document.getElementById('impact-list-container');
+
+      if (impactHeadingContainer) {
+        impactHeadingContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${impactData.frontmatter?.title || 'Our Impact'}</h2>
+          ${impactData.content || ''}
+        `;
+      }
+
+      if (impactMenuContainer) {
+        impactMenuContainer.innerHTML = `
+          <button type="button" class="active" data-filter="*">All</button>
+          <button type="button" data-filter=".cat1">Business and human rights</button>
+          <button type="button" data-filter=".cat2">Gender justice</button>
+          <button type="button" data-filter=".cat3">Climate change and human rights</button>
+          <button type="button" data-filter=".cat4">Sustainable development</button>
+          <button type="button" data-filter=".cat5">Technical and Advisory Assistance</button>
+        `;
+      }
+
+      if (impactListContainer) {
+        // In a real implementation, you would fetch multiple impact items
+        impactListContainer.innerHTML = `
+          <div class="portfolio-list">
+            <div class="col-md-3 col-sm-6 grid-item cat1">
+              <div class="portfolio-single">
+                <img src="${impactData.frontmatter?.image || 'assets/images/default_impact.png'}" class="img-responsive" alt="${impactData.frontmatter?.title || 'Impact Item'}">
+                <div class="portfolio-overlay text-center">
+                  <div class="d-table">
+                    <div class="d-table-cell">
+                      <a class="popup-img" href="${impactData.frontmatter?.image || 'assets/images/default_impact.png'}">
+                        <i class="icon-magnifying-glass"></i>
+                      </a>
+                      <h6 class="text-white">${impactData.frontmatter?.category || 'General'}</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Render Commitment Section
+    async function renderCommitment() {
+      const commitmentData = await parseMarkdownWithFrontmatter('content/commitment/commitment.md');
+      if (!commitmentData) return;
+
+      const commitmentHeadingContainer = document.getElementById('commitment-heading-container');
+      const commitmentImageContainer = document.getElementById('commitment-image-container');
+
+      if (commitmentHeadingContainer) {
+        commitmentHeadingContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${commitmentData.frontmatter?.title || 'Our Commitment'}</h2>
+          ${commitmentData.content || ''}
+        `;
+      }
+
+      if (commitmentImageContainer && commitmentData.frontmatter?.sdg_image) {
+        commitmentImageContainer.innerHTML = `
+          <img src="${commitmentData.frontmatter.sdg_image}" class="img-responsive" alt="Our Commitment">
+        `;
+      }
+    }
+
+    // Render Locations Section
+    async function renderLocations() {
+      const locationsData = await parseMarkdownWithFrontmatter('content/locations/locations.md');
+      const locationsContentContainer = document.getElementById('locations-content-container');
+      
+      if (!locationsContentContainer || !locationsData) return;
+      
+      locationsContentContainer.innerHTML = `
+        <div class="testimonial-single text-center">
+          <div class="why-choose-content">
+            <h2 class="font-700 color-primary">${locationsData.frontmatter?.title || 'Where We Work'}</h2>
+            ${locationsData.content || ''}
+          </div>
+        </div>
+      `;
+    }
+
+    // Render Team Section
     async function renderTeam() {
-      const teamContent = await fetchMarkdown('content/team/sample-team-member.md');
+      const teamData = await parseMarkdownWithFrontmatter('content/team/team1.md');
+      const teamHeadingContainer = document.getElementById('team-heading-container');
       const teamListContainer = document.getElementById('team-list-container');
-      if (teamListContainer) {
-        teamListContainer.innerHTML = teamContent;
+      
+      if (!teamListContainer || !teamData) return;
+      
+      if (teamHeadingContainer) {
+        teamHeadingContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${teamData.frontmatter?.heading || 'Our Team'}</h2>
+          ${teamData.content || ''}
+        `;
       }
+
+      // In a real implementation, you would fetch multiple team members
+      teamListContainer.innerHTML = `
+        <div class="col-md-3 col-sm-6">
+          <div class="team-single text-center">
+            <div class="team-image">
+              <img src="${teamData.frontmatter?.image || 'assets/images/default_profile.png'}" alt="${teamData.frontmatter?.name || 'Team Member'}" class="img-responsive">
+            </div>
+            <div class="team-content">
+              <h5>${teamData.frontmatter?.name || 'Team Member'}</h5>
+              <span>${teamData.frontmatter?.position || 'Position'}</span>
+              <p>${teamData.frontmatter?.bio || 'Team member bio'}</p>
+              <div class="team-social-icons">
+                <ul>
+                  ${teamData.frontmatter?.twitter ? `
+                    <li>
+                      <a href="https://twitter.com/${teamData.frontmatter.twitter}" target="_blank"><i class="icon-twitter"></i></a>
+                    </li>
+                  ` : ''}
+                  ${teamData.frontmatter?.linkedin ? `
+                    <li>
+                      <a href="https://linkedin.com/in/${teamData.frontmatter.linkedin}" target="_blank"><i class="icon-linkedin"></i></a>
+                    </li>
+                  ` : ''}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
     }
 
-    // Render Contact content dynamically
+    // Render Contact Section
     async function renderContact() {
-      const contactContent = await fetchMarkdown('content/contact/contact.md');
+      const contactData = await parseMarkdownWithFrontmatter('content/contact/contact.md');
+      if (!contactData) return;
+
       const contactHeadingContainer = document.getElementById('contact-heading-container');
       const contactInfoContainer = document.getElementById('contact-info-container');
+      const formSubmitBtn = document.getElementById('form-submit-btn');
+
+      // Render heading and description
       if (contactHeadingContainer) {
-        contactHeadingContainer.innerHTML = '<h2 class="font-700 text-capitalize">Let\'s Connect.</h2>';
+        contactHeadingContainer.innerHTML = `
+          <h2 class="font-700 text-capitalize">${contactData.frontmatter?.heading || 'Contact Us'}</h2>
+          ${contactData.content || ''}
+        `;
       }
+
+      // Render contact info
       if (contactInfoContainer) {
-        contactInfoContainer.innerHTML = contactContent;
+        contactInfoContainer.innerHTML = `
+          <div class="contact-info">
+            ${contactData.frontmatter?.email ? `
+              <div class="contact-info-single">
+                <h6 class="font-600"><span><i class="icon-envelope"></i></span> Mail us :</h6>
+                <p>${contactData.frontmatter.email.replace('\n', '<br>')}</p>
+              </div>
+            ` : ''}
+            ${contactData.frontmatter?.phone ? `
+              <div class="contact-info-single">
+                <h6 class="font-600"><span><i class="icon-phone"></i></span> Call us :</h6>
+                <p>${contactData.frontmatter.phone.replace('\n', '<br>')}</p>
+              </div>
+            ` : ''}
+            ${contactData.frontmatter?.address ? `
+              <div class="contact-info-single">
+                <h6 class="font-600"><span><i class="icon-map"></i></span> Find us:</h6>
+                <p>${contactData.frontmatter.address.replace('\n', '<br>')}</p>
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }
+
+      // Update form button text if specified
+      if (formSubmitBtn && contactData.frontmatter?.form?.submit_text) {
+        formSubmitBtn.textContent = contactData.frontmatter.form.submit_text;
+      }
+
+      // Handle form submission
+      const contactForm = document.getElementById('contact-form');
+      if (contactForm) {
+        contactForm.addEventListener('submit', async function(e) {
+          e.preventDefault();
+          const formData = new FormData(contactForm);
+          const submitBtn = contactForm.querySelector('button[type="submit"]');
+          const formMessages = document.getElementById('form-messages');
+          
+          if (submitBtn) submitBtn.disabled = true;
+          
+          try {
+            const response = await fetch('/', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: new URLSearchParams(formData).toString()
+            });
+            
+            if (response.ok) {
+              if (formMessages) {
+                formMessages.innerHTML = `
+                  <div class="alert alert-success">
+                    ${contactData.frontmatter?.form?.success_message || 'Thank you for your message!'}
+                  </div>
+                `;
+              }
+              contactForm.reset();
+            } else {
+              throw new Error('Form submission failed');
+            }
+          } catch (error) {
+            console.error('Form submission error:', error);
+            if (formMessages) {
+              formMessages.innerHTML = `
+                <div class="alert alert-danger">
+                  There was a problem sending your message. Please try again later.
+                </div>
+              `;
+            }
+          } finally {
+            if (submitBtn) submitBtn.disabled = false;
+          }
+        });
       }
     }
 
-    // Helper functions to extract data from markdown HTML (to be implemented)
-    function extractHeading(html) {
-      // Extract heading from HTML string
-      return html.match(/<h2[^>]*>([^<]+)<\/h2>/)?.[1] || '';
+    // Render Footer
+    async function renderFooter() {
+      const footerData = await parseMarkdownWithFrontmatter('content/footer/footer.md');
+      const footerContainer = document.getElementById('footer-content-container');
+      
+      if (!footerContainer || !footerData) return;
+      
+      footerContainer.innerHTML = `
+        <div class="footer-content text-center">
+          ${footerData.frontmatter?.copyright_text ? `<p>${footerData.frontmatter.copyright_text}</p>` : ''}
+          ${footerData.content || ''}
+        </div>
+      `;
     }
 
-    function extractDescription(html) {
-      // Extract first paragraph or description from HTML string
-      return html.match(/<p[^>]*>([^<]+)<\/p>/)?.[1] || '';
-    }
-
-    function extractServicesList(html) {
-      // Extract list items from HTML string and format as HTML
-      const div = document.createElement('div');
-      div.innerHTML = html;
-      const listItems = div.querySelectorAll('li');
-      let listHtml = '';
-      listItems.forEach(item => {
-        listHtml += `<div class="col-md-4 col-sm-6"><div class="service-single text-center"><h5 class="font-600">${item.textContent}</h5></div></div>`;
-      });
-      return listHtml;
-    }
-
+    // Initialize everything when DOM is loaded
     document.addEventListener('DOMContentLoaded', async () => {
-      await renderSlider();
-      await renderAbout();
-      await renderFocus();
-      await renderServices();
-      await renderPortfolio();
-      await renderTestimonial();
-      await renderBoard();
-      await renderFunding();
-      await renderTeam();
-      await renderContact();
+      // Check if required libraries are loaded
+      if (typeof marked === 'undefined' || typeof jsyaml === 'undefined') {
+        console.error('Required libraries (marked.js or js-yaml) not loaded');
+        return;
+      }
 
-      // Initialize owl carousel for slider and testimonial
-      $('.silder.owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        nav: true,
-        dots: true
-      });
+      try {
+        // Render all sections
+        await renderNavbar();
+        await renderSlider();
+        await renderAbout();
+        await renderFocus();
+        await renderNews();
+        await renderEvents();
+        await renderOpportunities();
+        await renderSustainable();
+        await renderStrategy();
+        await renderImpact();
+        await renderCommitment();
+        await renderLocations();
+        await renderTeam();
+        await renderContact();
+        await renderFooter();
 
-      $('.testimonial.owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 7000,
-        nav: false,
-        dots: true
-      });
+        // Initialize other plugins
+        if (typeof $ !== 'undefined') {
+          // Initialize isotope for impact filtering
+          $('.portfolio-list').imagesLoaded(function() {
+            $('.portfolio-list').isotope({
+              itemSelector: '.grid-item',
+              layoutMode: 'fitRows'
+            });
+          });
+
+          // Impact menu click event
+          $('.portfolio-menu button').on('click', function() {
+            $('.portfolio-menu button').removeClass('active');
+            $(this).addClass('active');
+            
+            const filterValue = $(this).attr('data-filter');
+            $('.portfolio-list').isotope({ filter: filterValue });
+          });
+
+          // Initialize popup for images
+          $('.popup-img').magnificPopup({
+            type: 'image',
+            gallery: {
+              enabled: true
+            }
+          });
+        }
+      } catch (error) {
+        console.error('Error initializing page:', error);
+      }
     });
   </script>
 </body>
-
 </html>

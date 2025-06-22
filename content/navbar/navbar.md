@@ -1,5 +1,5 @@
 ---
-logo_image: "/assets/images/norms_logo_gold.png"
+logo_image: "assets/images/norms_logo_gold.png"
 logo_alt: "AfriRIGHT Logo"
 menu_items:
   - text: "Home"
@@ -17,7 +17,7 @@ menu_items:
   - text: "Partnership"
     link: "#board-member-area"
   - text: "Funding"
-    link: "#funding-area"
+    link: "#team-area"
   - text: "Team"
     link: "#team-area"
   - text: "Contact Us"

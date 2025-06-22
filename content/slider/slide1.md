@@ -1,8 +1,7 @@
 ---
-title: "Promoting Responsible Business Practices"
+title: "Promoting rights-centric business practices in Africa"
 subtitle: "Business and human rights"
-description: "Fostering Responsible Business Practices in Sub-Saharan Africa: NORMS' Collaborative Approach to Bridging Governance Gaps"
 background_image: "/assets/images/business_banner_2.png"
-button_text: "About Us"
-button_link: "#about-area"
 ---
+
+Through gender-sensitive analysis, research, publication and evidence-based programming, AfriRIGHTS aims to drive transformative change across the continent that aligns business operations with human rights principles.
