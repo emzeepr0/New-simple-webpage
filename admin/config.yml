@@ -13,15 +13,16 @@ collections:
     files:
       - file: "content/navbar/navbar.md"
         label: "Navbar Content"
-    fields:
-      - { label: "Logo Image", name: "logo_image", widget: "image" }
-      - { label: "Logo Alt Text", name: "logo_alt", widget: "string" }
-      - { label: "Menu Items", name: "menu_items", widget: "list", fields: [
-          { label: "Text", name: "text", widget: "string" },
-          { label: "Link", name: "link", widget: "string" }
-        ] }
+        name: "navbar"  # Required
+        fields:  # Required (duplicate of parent fields)
+          - { label: "Logo Image", name: "logo_image", widget: "image" }
+          - { label: "Logo Alt Text", name: "logo_alt", widget: "string" }
+          - { label: "Menu Items", name: "menu_items", widget: "list", fields: [
+              { label: "Text", name: "text", widget: "string" },
+              { label: "Link", name: "link", widget: "string" }
+            ] }
 
-  # Slider (folder-based - correct as-is)
+  # Slider (folder-based - remains unchanged)
   - name: "slider"
     label: "Slider"
     folder: "content/slider"
@@ -41,10 +42,11 @@ collections:
     files:
       - file: "content/about/about.md"
         label: "About Page"
-    fields:
-      - { label: "Heading", name: "heading", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "image" }
+        name: "about"  # Required
+        fields:
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image" }
 
   # Core Focus
   - name: "focus"
@@ -52,11 +54,12 @@ collections:
     files:
       - file: "content/focus/focus.md"
         label: "Core Focus Content"
-    fields:
-      - { label: "Heading", name: "heading", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
+        name: "focus"  # Required
+        fields:
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
 
-  # News (folder-based - correct as-is)
+  # News (folder-based - remains unchanged)
   - name: "news"
     label: "News"
     folder: "content/news"
@@ -69,7 +72,7 @@ collections:
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Date", name: "date", widget: "datetime" }
 
-  # Events (folder-based - correct as-is)
+  # Events (folder-based - remains unchanged)
   - name: "events"
     label: "Events"
     folder: "content/events"
@@ -87,10 +90,11 @@ collections:
     files:
       - file: "content/opportunities/opportunities.md"
         label: "Opportunities Content"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "image" }
+        name: "opportunities"  # Required
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image" }
 
   # Sustainable Development
   - name: "sustainable"
@@ -98,10 +102,11 @@ collections:
     files:
       - file: "content/sustainable/sustainable.md"
         label: "Sustainable Development Content"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "image" }
+        name: "sustainable"  # Required
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image" }
 
   # Our Strategy
   - name: "strategy"
@@ -109,12 +114,13 @@ collections:
     files:
       - file: "content/strategy/strategy.md"
         label: "Strategy Content"
-    fields:
-      - { label: "Heading", name: "heading", widget: "string" }
-      - { label: "Description", name: "description", widget: "markdown" }
-      - { label: "Services", name: "services", widget: "list", field: {label: "Service", name: "service", widget: "string"} }
+        name: "strategy"  # Required
+        fields:
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Services", name: "services", widget: "list", field: {label: "Service", name: "service", widget: "string"} }
 
-  # Our Impact (folder-based - correct as-is)
+  # Our Impact (folder-based - remains unchanged)
   - name: "impact"
     label: "Our Impact"
     folder: "content/impact"
@@ -132,10 +138,11 @@ collections:
     files:
       - file: "content/commitment/commitment.md"
         label: "Commitment Content"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
-      - { label: "SDG Image", name: "sdg_image", widget: "image" }
+        name: "commitment"  # Required
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "SDG Image", name: "sdg_image", widget: "image" }
 
   # Where We Work
   - name: "locations"
@@ -143,11 +150,12 @@ collections:
     files:
       - file: "content/locations/locations.md"
         label: "Locations Content"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Content", name: "content", widget: "markdown" }
+        name: "locations"  # Required
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
 
-  # Team (folder-based - correct as-is)
+  # Team (folder-based - remains unchanged)
   - name: "team"
     label: "Team"
     folder: "content/team"
@@ -167,18 +175,19 @@ collections:
     files:
       - file: "content/contact/contact.md"
         label: "Contact Page"
-    fields:
-      - { label: "Heading", name: "heading", widget: "string" }
-      - { label: "Description", name: "description", widget: "markdown" }
-      - { label: "Email", name: "email", widget: "string" }
-      - { label: "Phone", name: "phone", widget: "string" }
-      - { label: "Address", name: "address", widget: "markdown" }
-      - label: "Form Settings"
-        name: "form"
-        widget: "object"
+        name: "contact"  # Required
         fields:
-          - { label: "Submit Button Text", name: "submit_text", widget: "string", default: "Submit" }
-          - { label: "Success Message", name: "success_message", widget: "string", default: "Thank you for your message! We'll get back to you soon." }
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Address", name: "address", widget: "markdown" }
+          - label: "Form Settings"
+            name: "form"
+            widget: "object"
+            fields:
+              - { label: "Submit Button Text", name: "submit_text", widget: "string", default: "Submit" }
+              - { label: "Success Message", name: "success_message", widget: "string", default: "Thank you for your message! We'll get back to you soon." }
 
   # Footer
   - name: "footer"
@@ -186,6 +195,7 @@ collections:
     files:
       - file: "content/footer/footer.md"
         label: "Footer Content"
-    fields:
-      - { label: "Copyright Text", name: "copyright_text", widget: "string" }
-      - { label: "Additional Content", name: "content", widget: "markdown", required: false }
+        name: "footer"  # Required
+        fields:
+          - { label: "Copyright Text", name: "copyright_text", widget: "string" }
+          - { label: "Additional Content", name: "content", widget: "markdown", required: false }
