@@ -1634,65 +1634,6 @@ Through gender-sensitive analysis, research, publication and evidence-based prog
   <script src="mailer/ajax-contact-form.js"></script>
   <!--main-->
   <script src="assets/js/main.js"></script>
-  <!-- Include marked.js for markdown parsing -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-  <script>
-    // Utility function to fetch markdown and convert to HTML
-    async function fetchMarkdown(path) {
-      const response = await fetch(path);
-      const text = await response.text();
-      return marked.parse(text);
-    }
-
-    // Render About Us content dynamically
-    async function renderAbout() {
-      const aboutContent = await fetchMarkdown('content/about/about.md');
-      const aboutArea = document.querySelector('#about-area .about-content');
-      if (aboutArea) {
-        aboutArea.innerHTML = aboutContent;
-      }
-    }
-
-    // Render News content dynamically
-    async function renderNews() {
-      const newsContent = await fetchMarkdown('content/news/sample-news.md');
-      const newsArea = document.querySelector('#business-area .about-content');
-      if (newsArea) {
-        newsArea.innerHTML = newsContent;
-      }
-    }
-
-    // Render Contact Info dynamically
-    async function renderContact() {
-      const contactContent = await fetchMarkdown('content/contact/contact.md');
-      const contactInfo = document.querySelector('#contact-area .contact-info');
-      if (contactInfo) {
-        // Parse markdown to HTML and insert
-        contactInfo.innerHTML = marked.parse(contactContent);
-      }
-    }
-
-    // Render Team Members dynamically (basic example)
-    async function renderTeam() {
-      const teamContent = await fetchMarkdown('content/team/sample-team-member.md');
-      const teamArea = document.querySelector('#team-area .row');
-      if (teamArea) {
-        // For simplicity, just insert raw markdown converted to HTML
-        teamArea.innerHTML = marked.parse(teamContent);
-      }
-    }
-
-    // Initialize all dynamic content rendering
-    async function initDynamicContent() {
-      await renderAbout();
-      await renderNews();
-      await renderContact();
-      await renderTeam();
-    }
-
-    document.addEventListener('DOMContentLoaded', initDynamicContent);
-  </script>
 </body>
 
 </html>

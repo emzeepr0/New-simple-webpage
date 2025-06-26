@@ -1,7 +1,7 @@
-Step-by-Step Instructions to Deploy Your Site to Netlify and Configure Netlify CMS UI Access
+Step-by-Step Instructions to Deploy The Site on Netlify and Configure Netlify CMS UI Access
 
 1. Create a Git Repository
-   - If you haven't already, push your website code (including the admin folder and content folder) to a Git repository on GitHub, GitLab, or Bitbucket.
+   - Push the website code (including the admin folder and content folder) to a Git repository on GitHub, GitLab, or Bitbucket.
 
 2. Sign Up / Log In to Netlify
    - Go to https://www.netlify.com/ and sign up for a free account or log in if you already have one.
@@ -9,13 +9,13 @@ Step-by-Step Instructions to Deploy Your Site to Netlify and Configure Netlify C
 3. Create a New Site from Git
    - In the Netlify dashboard, click "New site from Git".
    - Connect your Git provider (GitHub, GitLab, or Bitbucket).
-   - Select the repository containing your website code.
+   - Select the repository containing the website code.
    - For a static site, you can leave the build command empty if you are not using a static site generator.
-   - Set the publish directory to the folder containing your site (e.g., root or `public` if applicable).
+   - Set the publish directory to the folder containing the site (e.g., root or `public` if applicable).
    - Click "Deploy site".
 
 4. Enable Netlify Identity
-   - In your site dashboard, go to "Settings" > "Identity".
+   - In the site dashboard, go to "Settings" > "Identity".
    - Click "Enable Identity".
    - Under "Registration preferences", choose "Open" or "Invite only" depending on your preference.
    - Save the settings.
@@ -25,7 +25,7 @@ Step-by-Step Instructions to Deploy Your Site to Netlify and Configure Netlify C
    - This allows authenticated users to commit changes to your Git repository via the CMS.
 
 6. Configure Netlify CMS
-   - Ensure your `admin/config.yml` is correctly set up with the backend as `git-gateway`.
+   - Ensure the `admin/config.yml` is correctly set up with the backend as `git-gateway`.
    - The CMS UI will be accessible at `https://your-site.netlify.app/admin/`.
 
 7. Invite Users (if using Invite Only)
@@ -43,4 +43,3 @@ Additional Notes:
 - For local testing, you can run a local server and access the CMS UI at `/admin/`.
 - For more advanced setups, consider adding build commands if using static site generators.
 
-If you need help with any of these steps, please let me know.

@@ -398,7 +398,7 @@
         navbarMenu.appendChild(li);
       });
 
-      // Set logo if available
+      // Set logo
       if (navbarData?.frontmatter?.logo_image) {
         document.getElementById('navbar-logo').src = navbarData.frontmatter.logo_image;
       }
@@ -703,7 +703,7 @@
       }
 
       if (impactListContainer) {
-        // In a real implementation, you would fetch multiple impact items
+        // We can add multiple impact items in the CMS
         impactListContainer.innerHTML = `
           <div class="portfolio-list">
             <div class="col-md-3 col-sm-6 grid-item cat1">
@@ -780,7 +780,7 @@
         `;
       }
 
-      // In a real implementation, you would fetch multiple team members
+      //  We can add multiple team members in the CMS
       teamListContainer.innerHTML = `
         <div class="col-md-3 col-sm-6">
           <div class="team-single text-center">
