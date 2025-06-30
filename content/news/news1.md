@@ -1,5 +1,5 @@
 ---
-title: Our New
+title: Our News
 description: Latest updates from AfriRIGHTS
 category: General
 image: /assets/images/business_poster.jpg
