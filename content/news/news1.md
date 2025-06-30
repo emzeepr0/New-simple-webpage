@@ -1,6 +1,6 @@
 ---
-title: Our News
-description: Latest updates from AfriRIGHT
+title: Our New
+description: Latest updates from AfriRIGHTS
 category: General
 image: /assets/images/business_poster.jpg
 date: 2025-06-30T10:04:26.830Z
